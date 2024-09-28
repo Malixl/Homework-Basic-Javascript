@@ -16,7 +16,7 @@
 
 ### Demo
 
-![Demo]()
+[Demo]: https://malixl.github.io/Rakamin-Basic-Javascript/
 
 ## Deskripsi
 

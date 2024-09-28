@@ -16,7 +16,7 @@
 
 ### Demo
 
-![Demo]: https://malixl.github.io/Rakamin-Basic-Javascript/
+[Demo]: https://malixl.github.io/Rakamin-Basic-Javascript/
 
 ## Deskripsi
 

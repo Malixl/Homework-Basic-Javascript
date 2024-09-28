@@ -42,6 +42,10 @@ Anda dapat menjalankan aplikasi ini dengan dua cara:
 
 ### 2. Langsung dari Browser
 
+- Clone repository ini dengan perintah:
+  ```bash
+  git clone https://github.com/Malixl/Rakamin-Basic-Javascript.git
+  ```
 - Buka proyek ini di Visual Studio Code.
 - Install ekstensi Live Server.
 - Klik kanan pada index.html dan pilih "Open with Live Server".

@@ -37,7 +37,6 @@ h2 {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
 }
 
 .tabs-container {
@@ -223,6 +222,30 @@ td {
   width: 40px;
   height: 40px;
   animation: spin 2s linear infinite;
+}
+
+footer {
+  background-color: var(
+    --footer-bg-color,
+    #f4f4f4
+  ); /* Adjust the color as needed */
+  color: var(--footer-text-color, #333); /* Adjust the color as needed */
+  padding: 15px 20px; /* Padding for spacing */
+  text-align: center; /* Center the text */
+  border-top: 2px solid var(--footer-border-color, #ccc); /* Optional: Add a top border */
+  position: relative; /* Optional: Positioning for any additional effects */
+  bottom: 0; /* Make sure it's at the bottom */
+  width: 100%; /* Full width */
+}
+
+footer a {
+  color: var(--link-color, #007bff); /* Adjust link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make link bold */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
 @keyframes spin {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework JS Dasar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/JavaScript-logo.png">
+</head>
+
+<body>
+    <div class="center-wrapper">
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tablinks active" onclick="openTab(event, 'Registrasi')">Form Registrasi</button>
+                <button class="tablinks" onclick="openTab(event, 'ListPendaftar')">List Pendaftar</button>
+            </div>
+            <div id="Registrasi" class="tabcontent active">
+                <form id="registrationForm">
+                    <label for="name">Nama (minimal 10 karakter):</label>
+                    <input type="text" id="name" name="name">
+                    <div class="input-error" id="name-error"></div>
+
+                    <label for="age">Umur (minimal 25 tahun):</label>
+                    <input type="number" id="age" name="age">
+                    <div class="input-error" id="age-error"></div>
+
+                    <label for="sangu">Uang Sangu (100 ribu - 1 juta):</label>
+                    <input type="number" id="sangu" name="sangu">
+                    <div class="input-error" id="sangu-error"></div>
+
+                    <button type="submit">Daftar</button>
+                </form>
+            </div>
+
+            <div id="ListPendaftar" class="tabcontent">
+                <h2>List Pendaftar</h2>
+                <table id="registrantsTable">
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Umur</th>
+                            <th>Uang Sangu</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div id="summary"></div>
+            </div>
+        </div>
+    </div>
+    <div id="alertModal" class="modal">
+        <div class="modal-content">
+            <span id="modalIcon" class="loading-icon"></span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
